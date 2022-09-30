@@ -16,7 +16,7 @@ import os
 #     return LocalParquetIOManager()
 
 
-DBT_PROJECT_PATH = "paretos_project/assets/dbt_toy"
+DBT_PROJECT_PATH = "dbt_toy"
 dbt_assets = with_resources(
     load_assets_from_dbt_project(DBT_PROJECT_PATH),
     resource_defs={
